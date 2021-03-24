@@ -1,0 +1,7 @@
+rm: cannot remove `serial_pi.txt': No such file or directory
+serial_pi.c: In function ‘main’:
+serial_pi.c:25:13: warning: implicit declaration of function ‘sqrt’ [-Wimplicit-function-declaration]
+      raio = sqrt(x*x + y*y);
+             ^~~~
+serial_pi.c:25:13: warning: incompatible implicit declaration of built-in function ‘sqrt’
+serial_pi.c:25:13: note: include ‘<math.h>’ or provide a declaration of ‘sqrt’
